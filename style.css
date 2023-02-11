@@ -1,0 +1,24 @@
+.cakes-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.home img{
+    object-fit: contain;
+    width: 500px;
+    height: 500px;
+    margin-left: 270px;
+}
+.img-home{
+    border-radius: 500px !important;
+}
+@media screen and (max-width:768px) {
+    .home img{
+        display: none;
+    }
+    .home h1{
+        color: yellowgreen;
+    }
+}
